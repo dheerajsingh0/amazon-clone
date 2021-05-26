@@ -57,11 +57,16 @@ function Header() {
                 <p className="link flex items-center ">
                     <MenuIcon className="h-6 mr-1"/>
                     All</p>
-                <p className="link">Prime Video</p>
-                <p className="link">Amazon Business</p>
-                <p className="link">Today's Deals</p>
-                <p className="link hidden lg:inline-flex">Electronics</p>
-
+                    <a href="https://www.primevideo.com" target="_blank" rel="noopener noreferrer">
+                
+                <p className="link">Prime Video</p></a>
+                <a href="https://business.amazon.com"  target="_blank" rel="noopener noreferrer" >
+                <p className="link">Amazon Business</p></a>
+                <a href="https://www.amazon.in/gp/help/customer/" target="_blank" rel="noopener noreferrer">
+                <p className="link">Customer Service</p></a>
+                <a href="https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping" target="_blank" rel="noopener noreferrer">
+                <p className="link hidden lg:inline-flex">Download App</p>
+                </a>
                 <p className="link hidden lg:inline-flex">Food & Grocery </p>
                 <p className="link hidden lg:inline-flex">Price</p>
                 <p className="link hidden lg:inline-flex">Buy Again</p>
