@@ -30,7 +30,7 @@ function Header() {
                 </div>   
                 {/**search */}
                 <div className="hidden sm:flex items-center h-10 rounded-md flex-grow  bg-yellow-400 hover:bg-yellow-500 cursor-pointer">
-                <input className="p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4" type="text" name="" id="" />  
+                <input className="p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4 placeholder-black" type="text" name="" id="" placeholder="Currently in progress mode" disabled/>  
                 <SearchIcon className="h-12 p-4"/>   
                 </div>  
                 {/**right */}
@@ -67,11 +67,7 @@ function Header() {
                 <a href="https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping" target="_blank" rel="noopener noreferrer">
                 <p className="link hidden lg:inline-flex">Download App</p>
                 </a>
-                <p className="link hidden lg:inline-flex">Food & Grocery </p>
-                <p className="link hidden lg:inline-flex">Price</p>
-                <p className="link hidden lg:inline-flex">Buy Again</p>
-                <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
-                <p className="link hidden lg:inline-flex">Health & personal Care</p>
+               
             </div>
         </header>
     )
