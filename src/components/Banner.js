@@ -5,10 +5,12 @@ function Banner() {
         <div className="relative">
             <div className="absolute w-full h-32 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20"/>
             <Carousel autoPlay infiniteLoop showStatus={false} showIndicators={false} showThumbs={false} interval={5000}>
+            <a href="https://www.primevideo.com/detail/The-Family-Man/0H3DDB4KBJFNDCKKLHNRLRLVKQ" target="_blank">
             <div>
-                <a href="https://www.primevideo.com/detail/The-Family-Man/0H3DDB4KBJFNDCKKLHNRLRLVKQ">
-                <img loading="lazy" src="/img/fm2.jpg" alt="slideimg1" /></a>
+                
+                <img loading="lazy" src="/img/fm2.jpg" alt="slideimg1" />
             </div>
+            </a>
             <div>
                 <img loading="lazy" src="/img/slide1.jpg" alt="slideimg1" />
             </div>
