@@ -18,7 +18,7 @@ function Banner() {
             </a>
 
             <div>
-                <img loading="lazy" src="/img/slide1.jpg" alt="slideimg1" />
+                <img loading="lazy" src="/img/slide1.jpg" alt="slideimgone" />
             </div>
             <div>
                 <img loading="lazy"src="/img/slide2.jpg" alt="slideimg2"/>
